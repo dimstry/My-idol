@@ -4,8 +4,10 @@
 
 .main {
   min-height: 100vh;
-  padding: 4rem 0;
   flex: 1;
+  background-image: url('../public/img/main.jpg');
+  background-size: cover;
+  background-position: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -16,6 +18,7 @@
   display: flex;
   flex: 1;
   padding: 2rem 0;
+  color: #fff;
   border-top: 1px solid #eaeaea;
   justify-content: center;
   align-items: center;

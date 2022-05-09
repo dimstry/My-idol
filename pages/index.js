@@ -12,8 +12,9 @@ export default function Home() {
       <Button variant="text">Text</Button>
       <Button variant="contained">Contained</Button>
       <Button variant="outlined">Outlined</Button>
+      
       <footer className={styles.footer}>
-        <p>Code with <CoffeeIcon /> By<b>Kresna & Dimas</b></p>
+        <p>Code with <CoffeeIcon /> By <b>Kresna & Dimas</b></p>
       </footer>
     </div>
     )
