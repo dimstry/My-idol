@@ -1,0 +1,29 @@
+.bg {
+  height: 100vh;
+  background-image: url('../public/img/viviz/bg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+}
+
+
+.card {
+  background-color: #fff;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  text-align: center;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  width: 350px;
+  height: 200px;
+}
+.segitiga{
+	height:0px;
+	width:0px;
+	border-bottom:solid 20px blue;
+	border-left:solid 10px transparent;
+	border-right:solid 10px transparent ;
+	position: absolute;
+}
