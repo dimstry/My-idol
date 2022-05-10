@@ -29,7 +29,7 @@ export default function Home() {
         <a href="">IVE </a>
       </div>
       <div className={styles.card}>
-        <a href="">SECRET NUMBER </a>
+        <a href="">SECRET NUMBER</a>
       </div>
       <div className={styles.card}>
         <a href="">NMIXX</a>
