@@ -19,11 +19,11 @@ export default function Home() {
 
   return (
     <div className={styles.main}>
-      <div className={styles.card}>
-        <a href="">
+      <a href="/viviz/main">
+        <div className={styles.card}>
           <Image src={viviz} alt="viviz_logo" height="80" width="210" />
-        </a>
-      </div>
+        </div>
+      </a>
       <div className={styles.card}>
         <a href="">
           <Image src={bp} alt="blackpink_logo" height="80" width="320" />
