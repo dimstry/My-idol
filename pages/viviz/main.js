@@ -20,17 +20,15 @@ export default function Viviz() {
                 <Col>
                  <div className={styles.card}>
                   <Image src={viviz} alt="Viviz" width="350px" height="190px" />
-                  <div className={styles.segitiga}>
-                  Eunha
-                  </div>
-                  </div>
-                  <div className="col-auto">
-                  <div>
-                  <div className={styles.segitiga}></div>
-                  <Button className="m-2 shadow-sm" variant="light">Eunha</Button>
-                 </div>
-                  <Button className="m-2 shadow-sm" variant="light">SinB</Button>
-                  <Button className="m-2 shadow-sm" variant="light">Umji</Button>
+                    <div className={styles.eunha}>
+                    Eunha
+                    </div>
+                    <div className={styles.sinb}>
+                      SinB
+                    </div>
+                    <div className={styles.umji}>
+                      Umji
+                    </div>
                   </div>
                  <Image src={vivizlogo} alt="viviz_logo" height="80" width="210" />
                 </Col>
