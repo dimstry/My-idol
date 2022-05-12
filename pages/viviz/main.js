@@ -9,7 +9,7 @@ import {
 import * as React from 'react';
 import styles from '../../styles/main.module.css';
 import viviz from '../../public/img/viviz/viviz.jpg';
-import vivizlogo from '../../public/img/logo/viviz.png';
+import Grup from './components/Grup';
 
 export default function Viviz() {
   return (
@@ -29,7 +29,7 @@ export default function Viviz() {
                <span> Umji </span>
               </div>
             </div>
-           <Image src={vivizlogo} alt="viviz_logo" height="80" width="210" />
+            <Grup />
           </Col>
         </Row>
       </Container>
