@@ -11,6 +11,7 @@ import styles from '../../styles/main.module.css';
 import viviz from '../../public/img/viviz/viviz.jpg';
 import eunHa from '../../public/img/viviz/eunHa.jpg'
 import sinB from '../../public/img/viviz/sinB.jpg'
+import Umji from '../../public/img/viviz/umji.jpg'
 import Grup from './components/Grup';
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -67,12 +68,12 @@ export default function Viviz() {
     );
   }
   
-  /*const myUmji = () => {
+  const myUmji = () => {
     setImgValue(
     
     <div className="cont_m profile" data-aos="fade-up" data-aos-delay="100">
       <div className="pf_member center">
-        <div className="pf_img"><Image src={umJi} alt="umji" /></div>
+        <div className="pf_img"><Image src={Umji} alt="umji" /></div>
         <div className="pf_box_m">
           <div className="pf_txt">
             <div className="pf_name coend-marker" data-aos="fade-right" data-aos-delay="200">Umji</div>
@@ -86,7 +87,7 @@ export default function Viviz() {
     </div>
     
     );
-  }*/
+  }
   
   return (
     <div className={styles.bg}>
@@ -102,7 +103,7 @@ export default function Viviz() {
                 <span onClick={() => mySinB()}>SinB</span>
               </div>
               <div className={styles.umji}>
-               <span> Umji </span>
+               <span onClick={() => myUmji()}> Umji </span>
               </div>
             </div>
             <Grup imgValue={getImgValue}/>
