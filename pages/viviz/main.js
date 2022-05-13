@@ -91,7 +91,7 @@ export default function Viviz() {
   
   return (
     <div className={styles.bg}>
-      <Container className="text-white text-center d-flex justify-content-center align-items-center">
+      <Container className="d-flex text-center justify-content-center align-items-center">
         <Row>
           <Col>
            <div className={styles.card}>
