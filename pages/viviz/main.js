@@ -6,7 +6,7 @@ import {
   Col,
   Button
 } from 'react-bootstrap';
-import React, {useState, useEffect} from 'react';
+import React, {useRef, useState, useEffect} from 'react';
 import styles from '../../styles/main.module.css';
 import viviz from '../../public/img/viviz/viviz.jpg';
 import eunHa from '../../public/img/viviz/eunHa.jpg'
@@ -15,13 +15,24 @@ import Umji from '../../public/img/viviz/umji.jpg'
 import Grup from './components/Grup';
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { gsap, TweenMax, Power3 } from "gsap";
 
 export default function Viviz() {
+  let LogoImg=useRef(null);
+  
   useEffect(() => {
-    AOS.init({
-      duration: 1000
-    });
-    AOS.refresh();
+    console.log("bisa");
+    TweenMax.to
+    (
+      LogoImg,
+      .8, 
+      {
+        opacity:1,
+        y:-40,
+        ease:Power3.easeOut,
+        delay:.3
+      }
+    )
   }, [])
   
   const [getImgValue, setImgValue] = useState("");
@@ -29,14 +40,14 @@ export default function Viviz() {
   const myEunha = () => {
     setImgValue(
     
-    <div className="cont_m profile" data-aos="fade-up" data-aos-delay="100">
+    <div ref={el => {LogoImg=el}} className="cont_m profile">
       <div className="pf_member center">
         <div className="pf_img"><Image src={eunHa} alt="eunha" /></div>
         <div className="pf_box_m">
           <div className="pf_txt">
-            <div className="pf_name coend-marker" data-aos="fade-right" data-aos-delay="200">EunHa</div>
+            <div className="pf_name coend-marker">EunHa</div>
           </div>
-          <div className="pf_txt_cont" data-aos="fade-right" data-aos-delay="300">
+          <div className="pf_txt_cont">
             <p><span>Nama: Eunha</span></p>
             <p><span>Tanggal Lahir: Tidak tahu</span></p>
           </div>
@@ -50,14 +61,14 @@ export default function Viviz() {
   const mySinB = () => {
     setImgValue(
     
-    <div className="cont_m profile" data-aos="fade-up" data-aos-delay="100">
+    <div ref={el => {LogoImg=el}} className="cont_m profile">
       <div className="pf_member center">
         <div className="pf_img"><Image src={sinB} alt="sinB" /></div>
-        <div className="pf_box_m">
+        <div ref={el => {LogoImg=el}} className="pf_box_m">
           <div className="pf_txt">
-            <div className="pf_name coend-marker" data-aos="fade-right" data-aos-delay="200">SinB</div>
+            <div className="pf_name coend-marker">SinB</div>
           </div>
-          <div className="pf_txt_cont" data-aos="fade-right" data-aos-delay="300">
+          <div ref={el => {LogoImg=el}} className="pf_txt_cont">
             <p><span>Nama: SinB</span></p>
             <p><span>Tanggal Lahir: Tidak tahu</span></p>
           </div>
@@ -71,14 +82,14 @@ export default function Viviz() {
   const myUmji = () => {
     setImgValue(
     
-    <div className="cont_m profile" data-aos="fade-up" data-aos-delay="100">
+    <div ref={el => {LogoImg=el}} className="cont_m profile">
       <div className="pf_member center">
         <div className="pf_img"><Image src={Umji} alt="umji" /></div>
         <div className="pf_box_m">
           <div className="pf_txt">
-            <div className="pf_name coend-marker" data-aos="fade-right" data-aos-delay="200">Umji</div>
+            <div className="pf_name coend-marker">Umji</div>
           </div>
-          <div className="pf_txt_cont" data-aos="fade-right" data-aos-delay="300">
+          <div className="pf_txt_cont">
             <p><span>Nama: Umji</span></p>
             <p><span>Tanggal Lahir: Tidak tahu</span></p>
           </div>
@@ -94,7 +105,7 @@ export default function Viviz() {
       <Container className="d-flex text-center justify-content-center align-items-center">
         <Row>
           <Col>
-           <div className={styles.card}>
+           <div ref={el => {LogoImg=el}} className={styles.card}>
             <Image src={viviz} alt="Viviz" width="350px" height="190px" />
               <div className={styles.eunha}>
               <span onClick={() => myEunha()}>Eunha</span>
