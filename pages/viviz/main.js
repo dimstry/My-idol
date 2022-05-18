@@ -6,7 +6,7 @@ import {
   Col,
   Button
 } from 'react-bootstrap';
-import React, {useRef, useState, useEffect} from 'react';
+import React, {useState, useEffect} from 'react';
 import styles from '../../styles/main.module.css';
 import viviz from '../../public/img/viviz/viviz.jpg';
 import eunHa from '../../public/img/viviz/eunHa.jpg'
@@ -15,32 +15,23 @@ import Umji from '../../public/img/viviz/umji.jpg'
 import Grup from './components/Grup';
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { gsap, TweenMax, Power3 } from "gsap";
+import "animate.css";
 
 export default function Viviz() {
-  let LogoImg=useRef(null);
-  
-  useEffect(() => {
-    console.log("bisa");
-    TweenMax.to
-    (
-      LogoImg,
-      .8, 
-      {
-        opacity:1,
-        y:-40,
-        ease:Power3.easeOut,
-        delay:.3
-      }
-    )
-  }, [])
   
   const [getImgValue, setImgValue] = useState("");
+  
+  /*seEffectt(() => {
+    AOS.init({
+      duration: 1000
+    });
+    AOS.refresh();
+  }, [])*/
   
   const myEunha = () => {
     setImgValue(
     
-    <div ref={el => {LogoImg=el}} className="cont_m profile">
+    <div className="cont_m profile animate__animated animate__fadeInUp animate__infinite">
       <div className="pf_member center">
         <div className="pf_img"><Image src={eunHa} alt="eunha" /></div>
         <div className="pf_box_m">
@@ -61,14 +52,14 @@ export default function Viviz() {
   const mySinB = () => {
     setImgValue(
     
-    <div ref={el => {LogoImg=el}} className="cont_m profile">
+    <div className="cont_m profile animate__animated animate__fadeInUp animate__infinite">
       <div className="pf_member center">
         <div className="pf_img"><Image src={sinB} alt="sinB" /></div>
-        <div ref={el => {LogoImg=el}} className="pf_box_m">
+        <div className="pf_box_m">
           <div className="pf_txt">
             <div className="pf_name coend-marker">SinB</div>
           </div>
-          <div ref={el => {LogoImg=el}} className="pf_txt_cont">
+          <div className="pf_txt_cont">
             <p><span>Nama: SinB</span></p>
             <p><span>Tanggal Lahir: Tidak tahu</span></p>
           </div>
@@ -82,7 +73,7 @@ export default function Viviz() {
   const myUmji = () => {
     setImgValue(
     
-    <div ref={el => {LogoImg=el}} className="cont_m profile">
+    <div className="cont_m profile animate__animated animate__fadeInUp animate__infinite">
       <div className="pf_member center">
         <div className="pf_img"><Image src={Umji} alt="umji" /></div>
         <div className="pf_box_m">
@@ -105,7 +96,7 @@ export default function Viviz() {
       <Container className="d-flex text-center justify-content-center align-items-center">
         <Row>
           <Col>
-           <div ref={el => {LogoImg=el}} className={styles.card}>
+           <div className={styles.card}>
             <Image src={viviz} alt="Viviz" width="350px" height="190px" />
               <div className={styles.eunha}>
               <span onClick={() => myEunha()}>Eunha</span>

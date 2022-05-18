@@ -1,0 +1,90 @@
+l.bg {
+  height: 100vh;
+  background-image: url('../public/img/viviz/bg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+}
+
+
+.card {
+  background-color: #fff;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  text-align: center;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  width: 350px;
+  height: 200px;
+}
+/* eunha balon chat/tag */
+.eunha {
+    position: relative;
+    width: 50px;
+    border-radius: 4px;
+    padding:5px;
+    background: rgba(56,56,56,0.928);
+    color: #fff;
+    font-size: 10px;
+    margin-top:-200px;
+    margin-left:60px ;
+}
+.eunha:after {
+    position: absolute;
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: -10px;
+    left: 17px;
+    border-top: solid 11px rgba(56,56,56,0.928);
+    border-left: solid 9px transparent;
+    border-right: solid 9px transparent;
+}
+/* Sinb balon chat/tag */
+.sinb {
+    position: relative;
+    width:50px;
+    border-radius: 4px;
+    padding:5px;
+    background: rgba(56,56,56,0.928);
+    color: #fff;
+    font-size: 10px;
+    margin-top:105px;
+    margin-left:130px ;
+}
+.sinb:after {
+    position: absolute;
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 23px;
+    left: 18px;
+    border-bottom: solid 11px rgba(56,56,56,0.928);
+    border-left: solid 9px transparent;
+    border-right: solid 9px transparent;
+}
+/* umji balon chat/tag */
+.umji {
+    position: relative;
+    width: 50px;
+    border-radius: 4px;
+    padding:5px;
+    background: rgba(56,56,56,0.928);
+    color: #fff;
+    font-size: 10px;
+    margin-top:-166px;
+    margin-left:260px ;
+}
+.umji:after {
+    position: absolute;
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: -10px;
+    left: 16px;
+    border-top: solid 11px rgba(56,56,56,0.928);
+    border-left: solid 9px transparent;
+    border-right: solid 9px transparent;
+}
