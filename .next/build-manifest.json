@@ -30,15 +30,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/aespa/main": [
+    "/redvelvet/main": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/aespa/main.js"
-    ],
-    "/blackpink/main": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/blackpink/main.js"
+      "static/chunks/pages/redvelvet/main.js"
     ]
   },
   "ampFirstPages": []

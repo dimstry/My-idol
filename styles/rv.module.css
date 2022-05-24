@@ -1,0 +1,134 @@
+.bg {
+  height: 100vh;
+  background-image: url('../public/img/rv/bg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+}
+
+
+.card {
+  background-color: #fff;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  text-align: center;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  width: 350px;
+  height: 200px;
+}
+/* seulgi balon chat/tag */
+.seulgi {
+    position: relative;
+    width: 50px;
+    border-radius: 4px;
+    padding:5px;
+    background: rgba(56,56,56,0.928);
+    color: #fff;
+    font-size: 10px;
+    margin-top:-165px;
+    margin-left:50px ;
+}
+.seulgi:after {
+    position: absolute;
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: -10px;
+    left: 17px;
+    border-top: solid 11px rgba(56,56,56,0.928);
+    border-left: solid 9px transparent;
+    border-right: solid 9px transparent;
+}
+/* Irene balon chat/tag */
+.nyai {
+    position: relative;
+    width:50px;
+    border-radius: 4px;
+    padding:5px;
+    background: rgba(56,56,56,0.928);
+    color: #fff;
+    font-size: 10px;
+    margin-top:88px;
+    margin-left:116px ;
+}
+.nyai:after {
+    position: absolute;
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 23px;
+    left: 18px;
+    border-bottom: solid 11px rgba(56,56,56,0.928);
+    border-left: solid 9px transparent;
+    border-right: solid 9px transparent;
+}
+/* Wendy balon chat/tag */
+.wen {
+    position: relative;
+    width: 50px;
+    border-radius: 4px;
+    padding:5px;
+    background: rgba(56,56,56,0.928);
+    color: #fff;
+    font-size: 10px;
+    margin-top:-170px;
+    margin-left:180px ;
+}
+.wen:after {
+    position: absolute;
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: -10px;
+    left: 16px;
+    border-top: solid 11px rgba(56,56,56,0.928);
+    border-left: solid 9px transparent;
+    border-right: solid 9px transparent;
+}
+.yer {
+    position: relative;
+    width: 50px;
+    border-radius: 4px;
+    padding:5px;
+    background: rgba(56,56,56,0.928);
+    color: #fff;
+    font-size: 10px;
+    margin-top:-15px;
+    margin-left:270px ;
+}
+.yer:after {
+    position: absolute;
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 23px;
+    left: 18px;
+    border-bottom: solid 11px rgba(56,56,56,0.928);
+    border-left: solid 9px transparent;
+    border-right: solid 9px transparent;
+}
+.joy {
+    position: relative;
+    width: 50px;
+    border-radius: 4px;
+    padding:5px;
+    background: rgba(56,56,56,0.928);
+    color: #fff;
+    font-size: 10px;
+    margin-top:70px;
+    margin-left:200px ;
+}
+.joy:after {
+    position: absolute;
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: -10px;
+    left: 16px;
+    border-top: solid 11px rgba(56,56,56,0.928);
+    border-left: solid 9px transparent;
+    border-right: solid 9px transparent;
+}
