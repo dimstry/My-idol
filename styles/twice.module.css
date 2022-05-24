@@ -1,0 +1,230 @@
+.bg {
+  height: 100vh;
+  background-image: url('../public/img/twice/bg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+}
+
+
+.card {
+  background-color: #fff;
+  margin: 0.5rem;
+  margin-top: -8rem;
+  padding: 0.5rem;
+  text-align: center;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  width: 350px;
+  height: 245px;
+  z-index: 1;
+}
+/* eunha balon chat/tag */
+.naya {
+    position: relative;
+    width: 60px;
+    border-radius: 4px;
+    padding:5px;
+    background: rgba(56,56,56,0.928);
+    color: #fff;
+    font-size: 10px;
+    margin-top:-34px;
+    margin-left:22px ;
+}
+.naya:after {
+    position: absolute;
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 23px;
+    left: 18px;
+    border-bottom: solid 11px rgba(56,56,56,0.928);
+    border-left: solid 9px transparent;
+    border-right: solid 9px transparent;
+}
+
+.jeong {
+    position: relative;
+    width: 70px;
+    border-radius: 4px;
+    padding:5px;
+    background: rgba(56,56,56,0.928);
+    color: #fff;
+    font-size: 10px;
+    margin-top:-155px;
+    margin-left:260px ;
+}
+.jeong:after {
+    position: absolute;
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 23px;
+    left: 30px;
+    border-bottom: solid 11px rgba(56,56,56,0.928);
+    border-left: solid 9px transparent;
+    border-right: solid 9px transparent;
+}
+
+.momo {
+    position: relative;
+    width: 60px;
+    border-radius: 4px;
+    padding:5px;
+    background: rgba(56,56,56,0.928);
+    color: #fff;
+    font-size: 10px;
+    margin-top:90px;
+    margin-left:260px ;
+}
+.momo:after {
+    position: absolute;
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 23px;
+    left: 18px;
+    border-bottom: solid 11px rgba(56,56,56,0.928);
+    border-left: solid 9px transparent;
+    border-right: solid 9px transparent;
+}
+
+.sana {
+    position: relative;
+    width: 50px;
+    border-radius: 4px;
+    padding:5px;
+    background: rgba(56,56,56,0.928);
+    color: #fff;
+    font-size: 10px;
+    margin-top:-150px;
+    margin-left:145px ;
+}
+.sana:after {
+    position: absolute;
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 23px;
+    left: 18px;
+    border-bottom: solid 11px rgba(56,56,56,0.928);
+    border-left: solid 9px transparent;
+    border-right: solid 9px transparent;
+}
+
+.jihyo {
+    position: relative;
+    width: 50px;
+    border-radius: 4px;
+    padding:5px;
+    background: rgba(56,56,56,0.928);
+    color: #fff;
+    font-size: 10px;
+    margin-top:80px;
+    margin-left:80px ;
+}
+.jihyo:after {
+    position: absolute;
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 23px;
+    left: 18px;
+    border-bottom: solid 11px rgba(56,56,56,0.928);
+    border-left: solid 9px transparent;
+    border-right: solid 9px transparent;
+}
+
+.mina {
+    position: relative;
+    width: 50px;
+    border-radius: 4px;
+    padding:5px;
+    background: rgba(56,56,56,0.928);
+    color: #fff;
+    font-size: 10px;
+    margin-top:-120px;
+    margin-left:84px ;
+}
+.mina:after {
+    position: absolute;
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 23px;
+    left: 22px;
+    border-bottom: solid 11px rgba(56,56,56,0.928);
+    border-left: solid 9px transparent;
+    border-right: solid 9px transparent;
+}
+
+.dahyun {
+    position: relative;
+    width: 60px;
+    border-radius: 4px;
+    padding:5px;
+    background: rgba(56,56,56,0.928);
+    color: #fff;
+    font-size: 10px;
+    margin-top:40px;
+    margin-left:150px ;
+}
+.dahyun:after {
+    position: absolute;
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 23px;
+    left: 18px;
+    border-bottom: solid 11px rgba(56,56,56,0.928);
+    border-left: solid 9px transparent;
+    border-right: solid 9px transparent;
+}
+
+.chae {
+    position: relative;
+    width: 70px;
+    border-radius: 4px;
+    padding:5px;
+    background: rgba(56,56,56,0.928);
+    color: #fff;
+    font-size: 10px;
+    margin-top:-68px;
+    margin-left:180px ;
+}
+.chae:after {
+    position: absolute;
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 23px;
+    left: 28px;
+    border-bottom: solid 11px rgba(56,56,56,0.928);
+    border-left: solid 9px transparent;
+    border-right: solid 9px transparent;
+}
+
+.tzuyu {
+    position: relative;
+    width: 50px;
+    border-radius: 4px;
+    padding:5px;
+    background: rgba(56,56,56,0.928);
+    color: #fff;
+    font-size: 10px;
+    margin-top:-34px;
+    margin-left:22px ;
+}
+.tzuyu:after {
+    position: absolute;
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 23px;
+    left: 18px;
+    border-bottom: solid 11px rgba(56,56,56,0.928);
+    border-left: solid 9px transparent;
+    border-right: solid 9px transparent;
+}
