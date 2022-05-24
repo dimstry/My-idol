@@ -22,7 +22,7 @@ export default function Aespa () {
   
   useEffect(() => {
     AOS.init({
-      offset: 200,
+      offset: 100,
       duration: 1000
     });
     AOS.refresh();
@@ -40,7 +40,7 @@ export default function Aespa () {
           </div>
           <div className="pf_txt_cont" data-aos="fade-right" data-aos-delay="300">
             <p><span>Nama: NingNing</span></p>
-            <p><span>Tanggal Lahir: 23/10/2002</span></p>
+            <p><span>Tanggal Lahir: 23.10.2002</span></p>
           </div>
         </div>
       </div>
@@ -60,7 +60,7 @@ export default function Aespa () {
           </div>
           <div className="pf_txt_cont" data-aos="fade-right" data-aos-delay="300">
             <p><span>Nama: Karina</span></p>
-            <p><span>Tanggal Lahir: 11/04/2000</span></p>
+            <p><span>Tanggal Lahir: 11.04.2000</span></p>
           </div>
         </div>
       </div>
@@ -80,7 +80,7 @@ export default function Aespa () {
           </div>
           <div className="pf_txt_cont" data-aos="fade-right" data-aos-delay="300">
             <p><span>Nama: Giselle</span></p>
-            <p><span>Tanggal Lahir: 30/10/2000</span></p>
+            <p><span>Tanggal Lahir: 30.10.2000</span></p>
           </div>
         </div>
       </div>
@@ -100,7 +100,7 @@ export default function Aespa () {
           </div>
           <div className="pf_txt_cont" data-aos="fade-right" data-aos-delay="300">
             <p><span>Nama: Winter</span></p>
-            <p><span>Tanggal Lahir: 01/01/2001</span></p>
+            <p><span>Tanggal Lahir: 01.01.2001</span></p>
           </div>
         </div>
       </div>

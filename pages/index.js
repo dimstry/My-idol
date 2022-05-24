@@ -22,48 +22,48 @@ export default function Home() {
       <a href="/viviz/main">
         <div className={styles.card}>
           <Image src={viviz} alt="viviz_logo" height="80" width="210" />
-    </div>
+        </div>
       </a>
-      <div className={styles.card}>
-        <a href="/blackpink/main">
+      <a href="/blackpink/main">
+        <div className={styles.card}>
           <Image src={bp} alt="blackpink_logo" height="80" width="320" />
-        </a>
-    </div>
-      <div className={styles.card}>
-        <a href="/aespa/main">
+        </div>
+      </a>
+      <a href="/aespa/main">
+        <div className={styles.card}>
           <Image src={aespa} alt="aespa_logo" height="80" width="210" />
-        </a>
-    </div>
-      <div className={styles.card}>
-        <a href="/redvelvet/main">
+        </div>
+      </a>
+      <a href="/redvelvet/main">
+        <div className={styles.card}>
           <Image src={rv} alt="redvelvet_logo" height="80" width="110" />
-        </a>
-    </div>
-      <div className={styles.card}>
-        <a href="/itzy/main">
+        </div>
+      </a>
+      <a href="/itzy/main">
+        <div className={styles.card}>
           <Image src={itzy} alt="itzy_logo" height="80" width="320" />
-        </a>
-    </div>
-      <div className={styles.card}>
-        <a href="/ive/main">
+        </div>
+      </a>
+      <a href="/ive/main">
+        <div className={styles.card}>
           <Image src={ive} alt="ive_logo" height="80" width="100" />
-        </a>
-    </div>
-      <div className={styles.card}>
-        <a href="/secretnumber/main">
+        </div>
+      </a>
+      <a href="/secretnumber/main">
+        <div className={styles.card}>
           <Image src={sn} alt="secretnumber_logo" height="80" width="260" />
-        </a>
-    </div>
-      <div className={styles.card}>
-        <a href="/nmixx/main">
+        </div>
+      </a>
+      <a href="/nmixx/main">
+        <div className={styles.card}>
           <Image src={nmixx} alt="nmixx_logo" height="80" width="180" />
-        </a>
-    </div>
-      <div className={styles.card}>
-        <a href="">
+        </div>
+      </a>
+      <a href="/twice/main">
+        <div className={styles.card}>
           <Image src={tw} alt="twice_logo" height="80" width="90" />
-        </a>
-    </div>
+        </div>
+      </a>
       <div className={styles.footer}>
        <footer>
           <p>
