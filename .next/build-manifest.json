@@ -30,10 +30,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/redvelvet/main": [
+    "/itzy/main": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/redvelvet/main.js"
+      "static/chunks/pages/itzy/main.js"
     ]
   },
   "ampFirstPages": []
