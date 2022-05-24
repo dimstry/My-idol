@@ -15,30 +15,30 @@ import Umji from '../../public/img/viviz/umji.jpg'
 import Grup from './components/Grup';
 import AOS from "aos";
 import "aos/dist/aos.css";
-import "animate.css";
 
 export default function Viviz() {
-  
+
   const [getImgValue, setImgValue] = useState("");
   
-  /*seEffectt(() => {
+  useEffect(() => {
     AOS.init({
+      offset: 200,
       duration: 1000
     });
     AOS.refresh();
-  }, [])*/
+  }, [getImgValue])
   
   const myEunha = () => {
     setImgValue(
     
-    <div className="cont_m profile animate__animated animate__fadeInUp animate__infinite">
+    <div className="cont_m profile" data-aos="fade-up" data-aos-delay="100">
       <div className="pf_member center">
         <div className="pf_img"><Image src={eunHa} alt="eunha" /></div>
         <div className="pf_box_m">
           <div className="pf_txt">
-            <div className="pf_name coend-marker">EunHa</div>
+            <div className="pf_name coend-marker" data-aos="fade-right" data-aos-delay="200">EunHa</div>
           </div>
-          <div className="pf_txt_cont">
+          <div className="pf_txt_cont" data-aos="fade-right" data-aos-delay="300">
             <p><span>Nama: Eunha</span></p>
             <p><span>Tanggal Lahir: Tidak tahu</span></p>
           </div>
@@ -52,14 +52,14 @@ export default function Viviz() {
   const mySinB = () => {
     setImgValue(
     
-    <div className="cont_m profile animate__animated animate__fadeInUp animate__infinite">
+    <div className="cont_m profile" data-aos="fade-up" data-aos-delay="100">
       <div className="pf_member center">
         <div className="pf_img"><Image src={sinB} alt="sinB" /></div>
         <div className="pf_box_m">
           <div className="pf_txt">
-            <div className="pf_name coend-marker">SinB</div>
+            <div className="pf_name coend-marker" data-aos="fade-right" data-aos-delay="200">SinB</div>
           </div>
-          <div className="pf_txt_cont">
+          <div className="pf_txt_cont" data-aos="fade-right" data-aos-delay="300">
             <p><span>Nama: SinB</span></p>
             <p><span>Tanggal Lahir: Tidak tahu</span></p>
           </div>
@@ -73,14 +73,14 @@ export default function Viviz() {
   const myUmji = () => {
     setImgValue(
     
-    <div className="cont_m profile animate__animated animate__fadeInUp animate__infinite">
+    <div className="cont_m profile" data-aos="fade-up" data-aos-delay="100">
       <div className="pf_member center">
         <div className="pf_img"><Image src={Umji} alt="umji" /></div>
         <div className="pf_box_m">
           <div className="pf_txt">
-            <div className="pf_name coend-marker">Umji</div>
+            <div className="pf_name coend-marker" data-aos="fade-right" data-aos-delay="200">Umji</div>
           </div>
-          <div className="pf_txt_cont">
+          <div className="pf_txt_cont" data-aos="fade-right" data-aos-delay="300">
             <p><span>Nama: Umji</span></p>
             <p><span>Tanggal Lahir: Tidak tahu</span></p>
           </div>
