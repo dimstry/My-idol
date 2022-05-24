@@ -29,11 +29,6 @@
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/aespa/main.js"
-    ],
-    "/viviz/main": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/viviz/main.js"
     ]
   },
   "ampFirstPages": []
