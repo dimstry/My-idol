@@ -25,37 +25,37 @@ export default function Home() {
     </div>
       </a>
       <div className={styles.card}>
-        <a href="">
+        <a href="/blackpink/main">
           <Image src={bp} alt="blackpink_logo" height="80" width="320" />
         </a>
     </div>
       <div className={styles.card}>
-        <a href="">
+        <a href="/aespa/main">
           <Image src={aespa} alt="aespa_logo" height="80" width="210" />
         </a>
     </div>
       <div className={styles.card}>
-        <a href="">
+        <a href="/redvelvet/main">
           <Image src={rv} alt="redvelvet_logo" height="80" width="110" />
         </a>
     </div>
       <div className={styles.card}>
-        <a href="">
+        <a href="/itzy/main">
           <Image src={itzy} alt="itzy_logo" height="80" width="320" />
         </a>
     </div>
       <div className={styles.card}>
-        <a href="">
+        <a href="/ive/main">
           <Image src={ive} alt="ive_logo" height="80" width="100" />
         </a>
     </div>
       <div className={styles.card}>
-        <a href="">
+        <a href="/secretnumber/main">
           <Image src={sn} alt="secretnumber_logo" height="80" width="260" />
         </a>
     </div>
       <div className={styles.card}>
-        <a href="">
+        <a href="/nmixx/main">
           <Image src={nmixx} alt="nmixx_logo" height="80" width="180" />
         </a>
     </div>
@@ -67,7 +67,7 @@ export default function Home() {
       <div className={styles.footer}>
        <footer>
           <p>
-Code with <CoffeeIcon /> By <b>Kresna & Dimas</b>
+Code with 💙 By <b>Kresna & Dimas</b>
       </p>
       </footer>
     </div>
