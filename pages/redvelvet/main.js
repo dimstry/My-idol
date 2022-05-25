@@ -42,7 +42,7 @@ export default function Viviz() {
           </div>
           <div className="pf_txt_cont" data-aos="fade-right" data-aos-delay="300">
             <p><span>Nama: Irene</span></p>
-            <p><span>Tanggal Lahir: 29/03/1991</span></p>
+            <p><span>Tanggal Lahir: 29.03.1991</span></p>
           </div>
         </div>
       </div>
@@ -63,7 +63,7 @@ export default function Viviz() {
           </div>
           <div className="pf_txt_cont" data-aos="fade-right" data-aos-delay="300">
             <p><span>Nama: Seulgi</span></p>
-            <p><span>Tanggal Lahir: 10/02/1994</span></p>
+            <p><span>Tanggal Lahir: 10.02.1994</span></p>
           </div>
         </div>
       </div>
@@ -84,7 +84,7 @@ export default function Viviz() {
           </div>
           <div className="pf_txt_cont" data-aos="fade-right" data-aos-delay="300">
             <p><span>Nama: Wendy</span></p>
-            <p><span>Tanggal Lahir: 21/02/1994</span></p>
+            <p><span>Tanggal Lahir: 21.02.1994</span></p>
           </div>
         </div>
       </div>
@@ -104,7 +104,7 @@ export default function Viviz() {
           </div>
           <div className="pf_txt_cont" data-aos="fade-right" data-aos-delay="300">
             <p><span>Nama: Joy</span></p>
-            <p><span>Tanggal Lahir: 03/10/1996</span></p>
+            <p><span>Tanggal Lahir: 03.10.1996</span></p>
           </div>
         </div>
       </div>
@@ -124,7 +124,7 @@ export default function Viviz() {
           </div>
           <div className="pf_txt_cont" data-aos="fade-right" data-aos-delay="300">
             <p><span>Nama: Yeri</span></p>
-            <p><span>Tanggal Lahir: 05/03/1999</span></p>
+            <p><span>Tanggal Lahir: 05.03.1999</span></p>
           </div>
         </div>
       </div>
