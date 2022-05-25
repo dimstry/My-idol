@@ -40,7 +40,7 @@ export default function Viviz() {
           </div>
           <div className="pf_txt_cont" data-aos="fade-right" data-aos-delay="300">
             <p><span>Nama: Eunha</span></p>
-            <p><span>Tanggal Lahir: Tidak tahu</span></p>
+            <p><span>Tanggal Lahir: 30.05.1997 </span></p>
           </div>
         </div>
       </div>
@@ -61,7 +61,7 @@ export default function Viviz() {
           </div>
           <div className="pf_txt_cont" data-aos="fade-right" data-aos-delay="300">
             <p><span>Nama: SinB</span></p>
-            <p><span>Tanggal Lahir: Tidak tahu</span></p>
+            <p><span>Tanggal Lahir: 03.06.1998 </span></p>
           </div>
         </div>
       </div>
@@ -82,7 +82,7 @@ export default function Viviz() {
           </div>
           <div className="pf_txt_cont" data-aos="fade-right" data-aos-delay="300">
             <p><span>Nama: Umji</span></p>
-            <p><span>Tanggal Lahir: Tidak tahu</span></p>
+            <p><span>Tanggal Lahir: 19.08.1998 </span></p>
           </div>
         </div>
       </div>
