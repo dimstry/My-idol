@@ -43,7 +43,7 @@ export default function Ive() {
           </div>
           <div className="pf_txt_cont" data-aos="fade-right" data-aos-delay="300">
             <p><span>Nama: Gaeul</span></p>
-            <p><span>Tanggal Lahir:24.10.2002</span></p>
+            <p><span>Tanggal Lahir: 24.10.2002</span></p>
           </div>
         </div>
       </div>
@@ -63,7 +63,7 @@ export default function Ive() {
           </div>
           <div className="pf_txt_cont" data-aos="fade-right" data-aos-delay="300">
             <p><span>Nama: Jang Won-young</span></p>
-            <p><span>Tanggal Lahir:31.08.2004</span></p>
+            <p><span>Tanggal Lahir: 31.08.2004</span></p>
           </div>
         </div>
       </div>
@@ -83,7 +83,7 @@ export default function Ive() {
           </div>
           <div className="pf_txt_cont" data-aos="fade-right" data-aos-delay="300">
             <p><span>Nama: LeeSeo</span></p>
-            <p><span>Tanggal Lahir:21.02.2007</span></p>
+            <p><span>Tanggal Lahir: 21.02.2007</span></p>
           </div>
         </div>
       </div>
@@ -103,7 +103,7 @@ export default function Ive() {
           </div>
           <div className="pf_txt_cont" data-aos="fade-right" data-aos-delay="300">
             <p><span>Nama: An Yu-jin</span></p>
-            <p><span>Tanggal Lahir:01.10.2003</span></p>
+            <p><span>Tanggal Lahir: 01.10.2003</span></p>
           </div>
         </div>
       </div>
@@ -123,7 +123,7 @@ export default function Ive() {
           </div>
           <div className="pf_txt_cont" data-aos="fade-right" data-aos-delay="300">
             <p><span>Nama: Naoi Rei</span></p>
-            <p><span>Tanggal Lahir:03.02.2004</span></p>
+            <p><span>Tanggal Lahir: 03.02.2004</span></p>
           </div>
         </div>
       </div>
@@ -143,7 +143,7 @@ export default function Ive() {
           </div>
           <div className="pf_txt_cont" data-aos="fade-right" data-aos-delay="300">
             <p><span>Nama: Liz</span></p>
-            <p><span>Tanggal Lahir:21.11.2004</span></p>
+            <p><span>Tanggal Lahir: 21.11.2004</span></p>
           </div>
         </div>
       </div>
