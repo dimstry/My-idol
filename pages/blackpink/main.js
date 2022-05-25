@@ -65,7 +65,7 @@ export default function Blackpink() {
           </div>
           <div className="pf_txt_cont" data-aos="fade-right" data-aos-delay="300">
             <p><span>Nama: Kim Jennie</span></p>
-            <p><span>Tanggal Lahir: 16.01</span></p>
+            <p><span>Tanggal Lahir: 16.01.1996</span></p>
           </div>
         </div>
       </div>
