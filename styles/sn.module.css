@@ -1,0 +1,156 @@
+.bg {
+  height: 100vh;
+  background-image: url('../public/img/sn/bg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+}
+
+
+.card {
+  background-color: #fff;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  text-align: center;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  width: 350px;
+  height: 200px;
+}
+/* eunha balon chat/tag */
+.min{
+  position: relative;
+  width: 50px;
+  border-radius: 4px;
+  padding: 5px;
+  background: rgba(56,56,56,0.928);
+  color: #fff;
+  font-size: 10px;
+  margin-top: -190px;
+  margin-left: 30px;
+}
+.min:after {
+  position: absolute;
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: -10px;
+  left: 17px;
+  border-top: solid 11px rgba(56,56,56,0.928);
+  border-left: solid 9px transparent;
+  border-right: solid 9px transparent;
+}
+/* Sinb balon chat/tag */
+.dit {
+  position: relative;
+  width: 50px;
+  border-radius: 4px;
+  padding: 5px;
+  background: rgba(56,56,56,0.928);
+  color: #fff;
+  font-size: 10px;
+  margin-top: 90px;
+  margin-left: 70px;
+}
+.dit:after {
+  position: absolute;
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: 23px;
+  left: 18px;
+  border-bottom: solid 11px rgba(56,56,56,0.928);
+  border-left: solid 9px transparent;
+  border-right: solid 9px transparent;
+}
+.dam {
+  position: relative;
+  width: 50px;
+  border-radius: 4px;
+  padding: 5px;
+  background: rgba(56,56,56,0.928);
+  color: #fff;
+  font-size: 10px;
+  margin-top: 80px;
+  margin-left: 170px;
+}
+.dam:after {
+  position: absolute;
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: 23px;
+  left: 18px;
+  border-bottom: solid 11px rgba(56,56,56,0.928);
+  border-left: solid 9px transparent;
+  border-right: solid 9px transparent;
+}
+.le{
+  position: relative;
+  width: 50px;
+  border-radius: 4px;
+  padding: 5px;
+  background: rgba(56,56,56,0.928);
+  color: #fff;
+  font-size: 10px;
+  margin-top: 80px;
+  margin-left: 260px;
+}
+.le:after {
+  position: absolute;
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: 23px;
+  left: 18px;
+  border-bottom: solid 11px rgba(56,56,56,0.928);
+  border-left: solid 9px transparent;
+  border-right: solid 9px transparent;
+}
+/* umji balon chat/tag */
+.zuu {
+  position: relative;
+  width: 50px;
+  border-radius: 4px;
+  padding: 5px;
+  background: rgba(56,56,56,0.928);
+  color: #fff;
+  font-size: 10px;
+  margin-top: -130px;
+  margin-left: 110px;
+}
+.zuu:after {
+  position: absolute;
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: -10px;
+  left: 16px;
+  border-top: solid 11px rgba(56,56,56,0.928);
+  border-left: solid 9px transparent;
+  border-right: solid 9px transparent;
+}
+.jin{
+  position: relative;
+  width: 50px;
+  border-radius: 4px;
+  padding: 5px;
+  background: rgba(56,56,56,0.928);
+  color: #fff;
+  font-size: 10px;
+  margin-top: -140px;
+  margin-left: 220px;
+}
+.jin:after {
+  position: absolute;
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: -10px;
+  left: 16px;
+  border-top: solid 11px rgba(56,56,56,0.928);
+  border-left: solid 9px transparent;
+  border-right: solid 9px transparent;
+}
