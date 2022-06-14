@@ -8,6 +8,7 @@
   align-items: center;
 }
 
+/* style card */
 
 .card {
   background-color: #fff;
@@ -21,7 +22,7 @@
   height: 220px;
   z-index: 1;
 }
-/* eunha balon chat/tag */
+/* yeji balon chat/tag */
 .yeji {
     position: relative;
     width: 50px;
