@@ -1,4 +1,3 @@
-//external .babelrc config
 {
  "presets": ["next/babel"]
 }
