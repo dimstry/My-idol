@@ -73,6 +73,7 @@ export default function Home() {
           </div>
         </a>
       </Link>
+      {/* batas */}
       <Link href="/nmixx/main">
         <a>
           <div className={styles.card}>
@@ -80,6 +81,7 @@ export default function Home() {
           </div>
         </a>
       </Link>
+      {/* batas */}
       <Link href="/twice/main">
         <a>
           <div className={styles.card}>
