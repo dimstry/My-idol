@@ -13,7 +13,7 @@ dan di host menggunakan <a href="https://vercel.com/">Vercel</a>
 © Copyright 2022 - All rights reserved.
 
 ## Author 🤖
-<a href="https://instagram.com/dims_yny?igshid=YmMyMTA2M2Y=" target="_blank">@Dimas</a><p>
+<a href="https://instagram.com/dimstr__?igshid=YmMyMTA2M2Y=" target="_blank">@Dimas</a><p>
 <a href="https://instagram.com/abcdefghij__k__lmnopqrstuvwxyz?igshid=YmMyMTA2M2Y=" target="_blank">@Kresna</a>
 
 ## 🛐 Big thanks to:
