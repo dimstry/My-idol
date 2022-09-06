@@ -20,94 +20,101 @@ export default function Viviz() {
 
   const [getImgValue, setImgValue] = useState("");
   
+
+
   useEffect(() => {
     AOS.init({
       offset: 200,
       duration: 1000
     });
     AOS.refresh();
-  }, [getImgValue])
+  }, [])
   
   const myEunha = () => {
-    setImgValue(
-    
-    <div className="cont_m profile" data-aos="fade-up" data-aos-delay="100">
-      <div className="pf_member center">
-        <div className="pf_img"><Image src={eunHa} alt="eunha" /></div>
-        <div className="pf_box_m">
-          <div className="pf_txt">
-            <div className="pf_name coend-marker" data-aos="fade-right" data-aos-delay="200">EunHa</div>
-          </div>
-          <div className="pf_txt_cont" data-aos="fade-right" data-aos-delay="300">
-            <p><span>Nama: Eunha</span></p>
-            <p><span>Tanggal Lahir: 30.05.1997 </span></p>
+    setImgValue(<h1 className='text-white'>Wait....</h1>);
+    setTimeout(() => {
+      setImgValue(
+        <div className="cont_m profile" data-aos="fade-up" data-aos-delay="100">
+          <div className="pf_member center">
+            <div className="pf_img"><Image src={eunHa} alt="eunha" /></div>
+            <div className="pf_box_m">
+              <div className="pf_txt">
+                <div className="pf_name coend-marker" data-aos="fade-right" data-aos-delay="200">EunHa</div>
+              </div>
+              <div className="pf_txt_cont" data-aos="fade-right" data-aos-delay="300">
+                <p><span>Nama: Eunha</span></p>
+                <p><span>Tanggal Lahir: 30.05.1997 </span></p>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-    </div>
-    
-    );
+      );
+    }, 500);
   }
   
   const mySinB = () => {
-    setImgValue(
-    
-    <div className="cont_m profile" data-aos="fade-up" data-aos-delay="100">
-      <div className="pf_member center">
-        <div className="pf_img"><Image src={sinB} alt="sinB" /></div>
-        <div className="pf_box_m">
-          <div className="pf_txt">
-            <div className="pf_name coend-marker" data-aos="fade-right" data-aos-delay="200">SinB</div>
-          </div>
-          <div className="pf_txt_cont" data-aos="fade-right" data-aos-delay="300">
-            <p><span>Nama: SinB</span></p>
-            <p><span>Tanggal Lahir: 03.06.1998 </span></p>
+    setImgValue(<h1 className='text-white'>Wait....</h1>);
+    setTimeout(() => {
+      setImgValue(
+        <div className="cont_m profile" data-aos="fade-up" data-aos-delay="100">
+          <div className="pf_member center">
+            <div className="pf_img"><Image src={sinB} alt="sinB" /></div>
+            <div className="pf_box_m">
+              <div className="pf_txt">
+                <div className="pf_name coend-marker" data-aos="fade-right" data-aos-delay="200">SinB</div>
+              </div>
+              <div className="pf_txt_cont" data-aos="fade-right" data-aos-delay="300">
+                <p><span>Nama: SinB</span></p>
+                <p><span>Tanggal Lahir: 03.06.1998 </span></p>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-    </div>
-    
-    );
+      );
+    }, 500);
   }
   
   const myUmji = () => {
-    setImgValue(
-    
-    <div className="cont_m profile" data-aos="fade-up" data-aos-delay="100">
-      <div className="pf_member center">
-        <div className="pf_img"><Image src={Umji} alt="umji" /></div>
-        <div className="pf_box_m">
-          <div className="pf_txt">
-            <div className="pf_name coend-marker" data-aos="fade-right" data-aos-delay="200">Umji</div>
-          </div>
-          <div className="pf_txt_cont" data-aos="fade-right" data-aos-delay="300">
-            <p><span>Nama: Umji</span></p>
-            <p><span>Tanggal Lahir: 19.08.1998 </span></p>
+    setImgValue(<h1 className='text-white'>Wait....</h1>);
+    setTimeout(() => {
+      setImgValue(
+        <div className="cont_m profile" data-aos="fade-up" data-aos-delay="100">
+          <div className="pf_member center">
+            <div className="pf_img"><Image src={Umji} alt="umji" /></div>
+            <div className="pf_box_m">
+              <div className="pf_txt">
+                <div className="pf_name coend-marker" data-aos="fade-right" data-aos-delay="200">Umji</div>
+              </div>
+              <div className="pf_txt_cont" data-aos="fade-right" data-aos-delay="300">
+                <p><span>Nama: Umji</span></p>
+                <p><span>Tanggal Lahir: 19.08.1998 </span></p>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-    </div>
-    
-    );
+      );
+    }, 500);
   }
   
   return (
     <div className={styles.bg}>
-      <Container className="d-flex text-center justify-content-center align-items-center">
-        <Row>
+      <Container>
+        <Row className={styles.row}>
+          <Col className={styles.col}>
+            <div className={styles.card}>
+              <Image src={viviz} alt="Viviz" width="350px" height="190px" />
+                <div className={styles.eunha}>
+                <span onClick={() => myEunha()}>Eunha</span>
+                </div>
+                <div className={styles.sinb}>
+                  <span onClick={() => mySinB()}>SinB</span>
+                </div>
+                <div className={styles.umji}>
+                <span onClick={() => myUmji()}> Umji </span>
+                </div>
+              </div>
+          </Col>
           <Col>
-           <div className={styles.card}>
-            <Image src={viviz} alt="Viviz" width="350px" height="190px" />
-              <div className={styles.eunha}>
-              <span onClick={() => myEunha()}>Eunha</span>
-              </div>
-              <div className={styles.sinb}>
-                <span onClick={() => mySinB()}>SinB</span>
-              </div>
-              <div className={styles.umji}>
-               <span onClick={() => myUmji()}> Umji </span>
-              </div>
-            </div>
             <Grup imgValue={getImgValue}/>
           </Col>
         </Row>

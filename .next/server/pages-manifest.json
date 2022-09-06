@@ -2,5 +2,9 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/ive/main": "pages/ive/main.js"
+  "/blackpink/main": "pages/blackpink/main.js",
+  "/": "pages/index.js",
+  "/viviz/main": "pages/viviz/main.js",
+  "/redvelvet/main": "pages/redvelvet/main.js",
+  "/itzy/main": "pages/itzy/main.js"
 }
